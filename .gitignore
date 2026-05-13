@@ -1,0 +1,32 @@
+# Sensitive files - NEVER commit these
+docker-compose.yml
+bank-application/env
+
+# Build output
+target/
+*.jar
+*.war
+
+# Logs
+logs/
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Docker
+dd-java-agent.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code internal
+.claude/
